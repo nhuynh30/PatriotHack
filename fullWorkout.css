@@ -1,0 +1,114 @@
+/* ----- GLOBAL RESET ----- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", Arial, sans-serif;
+}
+
+/* ----- DARK MODE BACKGROUND ----- */
+body {
+    background: #0f0f0f;
+    color: #ffffff;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* ----- CONTAINER ----- */
+.container {
+    max-width: 900px;
+    margin: auto;
+}
+
+/* ----- HEADINGS ----- */
+h1, h2, h3 {
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
+/* ----- CARD SECTIONS ----- */
+.card {
+    background: #1a1a1a;
+    padding: 22px;
+    border-radius: 12px;
+    margin-top: 20px;
+    border: 1px solid #2a2a2a;
+    box-shadow: 0 0 15px rgba(0,0,0,0.25);
+}
+
+.card h3 {
+    margin-bottom: 10px;
+    color: #66c2ff;
+}
+
+/* ----- BUTTONS ----- */
+button {
+    background: #2b2b2b;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 0.95rem;
+    transition: 0.2s ease-in-out;
+}
+
+button:hover {
+    background: #3b3b3b;
+    transform: translateY(-2px);
+}
+
+.button-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+/* Blue Action Buttons */
+.action-row button {
+    background: #0059ff;
+}
+
+.action-row button:hover {
+    background: #1a6bff;
+}
+
+/* ----- TEXT ----- */
+.muted {
+    color: #bbbbbb;
+    font-size: 0.85rem;
+    margin-top: 25px;
+    text-align: center;
+}
+
+/* ----- WORKOUT LIST STYLING ----- */
+ul {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+ul li {
+    padding: 4px 0;
+}
+
+/* Workout items bold for emphasis */
+.exercise-title {
+    font-weight: bold;
+    color: #87cefa;
+}
+
+/* ----- RESPONSIVE ------- */
+@media (max-width: 600px) {
+    button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .button-row {
+        flex-direction: column;
+    }
+}

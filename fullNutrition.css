@@ -1,0 +1,83 @@
+/* ===== Header ===== */
+body h1 {
+    margin: 0;
+    font-size: 40px;
+    color: #7bdfff;
+    background-color: #2a2a2a;
+    padding: 50px 35px;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: 'Meow Script', cursive;
+    text-align: left;
+}
+
+/* ===== Body ===== */
+body {
+    font-family: "Inter", sans-serif;
+    background: #0f0f0f;
+    color: #eaeaea;
+    margin: 0;
+    padding: 0;
+}
+
+/* ===== Container ===== */
+.container {
+    max-width: 750px;
+    margin: 30px auto;
+    padding: 0 15px;
+}
+
+/* ===== Back Button ===== */
+#backBtn {
+    background: #1e1e1e;
+    color: #7bdfff;
+    border: 1px solid #2a2a2a;
+    padding: 10px 18px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: 0.25s;
+}
+
+#backBtn:hover {
+    background: #272727;
+    transform: translateX(-3px);
+}
+
+/* ===== Cards ===== */
+.card {
+    background: #1b1b1b;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    box-shadow: 0 0 18px rgba(0,0,0,0.45);
+    line-height: 1.8;
+    border: 1px solid #2a2a2a;
+}
+
+.card strong {
+    color: #7bdfff;
+}
+
+.card ul {
+    padding-left: 20px;
+}
+
+.card li {
+    margin-bottom: 6px;
+}
+
+.note {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #d1d1d1;
+}
+
+/* ===== Responsive Header ===== */
+@media (max-width: 500px) {
+    body h1 {
+        padding: 30px 20px;
+        font-size: 30px;
+    }
+}

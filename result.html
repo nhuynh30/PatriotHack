@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Fitness Plan</title>
+    <link rel="stylesheet" href="result.css">
+</head>
+<body>
+    <h1>We Track Your Fitness</h1>
+    <div class="container">
+
+        <button id="backBtn" onclick="goBack()">← Edit My Information</button>
+
+        <h2>Your Personalized Fitness Plan</h2>
+
+        <div id="userSummary" class="card"></div>
+
+        <h3>Workout Plan</h3>
+        <div id="workoutPlan" class="card"></div>
+
+        <h3>Nutrition Plan</h3>
+        <div id="nutritionPlan" class="card"></div>
+
+        <h3>Weekly Goals</h3>
+        <div id="weeklyGoals" class="card"></div>
+
+        <button class="viewBtn" onclick="window.location.href='fullWorkout.html'">
+            View Full Workout Plan
+        </button>
+
+        <button class="viewBtn" onclick="window.location.href='fullNutrition.html'">
+            Full Nutrition Plan
+        </button>
+    </div>
+
+    <script src="result.js"></script>
+</body>
+</html>

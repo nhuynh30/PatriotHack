@@ -1,0 +1,106 @@
+/* ===== Body ===== */
+body {
+    font-family: "Inter", sans-serif;
+    background: #0f0f0f;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    color: #eaeaea;
+}
+
+/* ===== Header ===== */
+header {
+    width: 100%;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 40px;
+    color: #7bdfff;
+    background-color: #2a2a2a;
+    padding: 100px;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: 'Meow Script', cursive;
+    text-align: left;
+}
+
+/* ===== Container (FIXED LENGTH) ===== */
+.container {
+    background: #1b1b1b;
+    padding: 30px 35px 60px;   /* EXTRA bottom padding */
+    border-radius: 15px;
+    width: 360px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.7);
+    margin-top: 40px;
+
+    /* FIX: container grows to fit all content */
+    min-height: fit-content;
+    height: auto;
+    overflow: visible;
+}
+
+/* ===== Headings ===== */
+h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #7bdfff;
+}
+
+/* ===== Labels ===== */
+label {
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #b0b0b0;
+}
+
+/* ===== Inputs ===== */
+input, select {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #333;
+    background: #242424;
+    color: #eaeaea;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+input::placeholder {
+    color: #888;
+}
+
+/* ===== Button ===== */
+button {
+    width: 100%;
+    padding: 14px;
+    margin-top: 25px;
+    border: none;
+    border-radius: 10px;
+    background: #7bdfff;
+    color: #0f0f0f;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+button:hover {
+    background: #5ac4e0;
+    transform: translateY(-2px);
+}
+
+#gobackBtn {
+    max-width: 120px !important;
+    display: flex !important;
+    justify-content: flex-start; /* aligns content inside button */
+    text-align: left !important;
+    align-self: flex-start;       /* override parent's center alignment */
+    margin-left: 1.2%;
+    padding: 20px;
+}
+

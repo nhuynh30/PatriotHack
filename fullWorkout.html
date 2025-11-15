@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Full Workout Plan</title>
+  <!-- keep this filename so your CSS can target it -->
+  <link rel="stylesheet" href="fullWorkout.css">
+</head>
+<body>
+  <div class="container">
+
+    <!-- top controls -->
+    <div class="button-row">
+      <button id="backBtn" type="button">← Back to Results</button>
+      <button id="editBtn" type="button">✎ Edit My Information</button>
+    </div>
+
+    <main>
+      <h2>Your Full Workout Plan</h2>
+
+      <!-- summary/header inserted by JS -->
+      <section id="planHeader" class="card" aria-live="polite"></section>
+
+      <!-- detailed program inserted by JS -->
+      <section id="fullWorkoutContent" class="card"></section>
+
+      <!-- optional actions -->
+      <div class="action-row">
+        <button id="downloadBtn" type="button">⬇️ Download Plan (PDF)</button>
+        <button id="printBtn"  type="button">🖨 Print</button>
+      </div>
+    </main>
+
+    <!-- small footer note -->
+    <footer>
+      <p class="muted">All plans are templates — consult a professional for medical or injury-related guidance.</p>
+    </footer>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+  <!-- script will handle navigation + rendering + download/print -->
+  <script src="fullWorkout.js"></script>
+</body>
+</html>
