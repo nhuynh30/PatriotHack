@@ -26,7 +26,7 @@ Our program is named TrackYourFitness, where the program takes user’s health i
 
 · Search for “Live Server”
 
-· Download the application
+· Download the application.
 
 3. File Download
 
