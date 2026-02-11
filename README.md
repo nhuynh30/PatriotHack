@@ -1,5 +1,5 @@
 # PatriotHack
-This is a website to track your fitness journey
+This is a website to track your fitness journey.
 Our program is named TrackYourFitness, where the program takes user’s health information and assists users in defining what path is the best to their fitness journey.
 
 ## Table of Contents
