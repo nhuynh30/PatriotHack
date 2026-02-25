@@ -30,7 +30,7 @@ Our program is named TrackYourFitness, where the program takes user’s health i
 
 3. File Download
 
-· Download the ZIP folder for this project
+· Download the ZIP folder for this project.
 
 · Extract the folder to whatever directory of your choice
 
