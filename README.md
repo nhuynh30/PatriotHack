@@ -4,7 +4,7 @@ Our program is named TrackYourFitness, where the program takes user’s health i
 
 ## Table of Contents:
 
-- Installation
+- Installation.
 
 - Usage
 
