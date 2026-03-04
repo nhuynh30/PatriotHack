@@ -6,7 +6,7 @@ Our program is named TrackYourFitness, where the program takes user’s health i
 
 - Installation.
 
-- Usage
+- Usage.
 
 - Bug Tracker
 
